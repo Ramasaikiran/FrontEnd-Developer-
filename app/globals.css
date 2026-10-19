@@ -148,7 +148,7 @@ h2{font-size:clamp(26px,4vw,36px);line-height:1.2;letter-spacing:-.01em;margin-b
 .ready .btn.xs{padding:7px 14px}
 .ready .btns{justify-content:flex-end}
 .ready .ghost{color:var(--ink);border-color:var(--line)}
-.f1{font-size:14px;margin:12px 0 8px}
+.fl{font-size:14px;margin:12px 0 8px}
 .fbar{display:flex;gap:24px;flex-wrap:wrap;font-size:11px;color:var(--mute);padding:14px 0;border-top:1px solid var(--line);justify-content:space-between}
 .copy{text-align:left;padding-top:10px;border-top:1px solid var(--line)}
 @media(max-width:900px){

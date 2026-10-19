@@ -206,7 +206,7 @@ export default function Home() {
           <div className="fgrid">
             <div>
               <a className="logo" href="#">CampusPe</a>
-              <p className="f1">From choosing a college to finding your next opportunity.</p>
+              <p className="fl">From choosing a college to finding your next opportunity.</p>
               <p className="small">CampusPe connects students, colleges and employers in one place.</p>
             </div>
             {Object.entries(footer).map(([h, ls]) => (<div key={h}><h5>{h}</h5>{ls.map((l) => <a key={l} href="#">{l}</a>)}{h === "Legal & Policies" && <a className="blue" href="#">View all policies →</a>}</div>))}
