@@ -4,7 +4,7 @@ type Row = { n: string; k: string; t: string; d: string; tags: string[] };
 const cards = [
   { t: "College", b: "Coming Soon", d: "Explore colleges, courses, fees, placements & more", p: ["Search by course, location, fees", "Connect directly with colleges", "Improve student placements"], c: "Join Waitlist" },
   { t: "I'm Looking for a Job", b: "Available Now", d: "Upload your resume. We'll find jobs that fit you.", p: ["Jobs from 1000+ sources", "AI powered matching", "WhatsApp & email alerts"], c: "Explore Jobs →" },
-  { t: "I'm Hiring", b: "Coming Soon", d: "Connect with colleges and find candidates — from students to graduates.", p: ["Connect directly with colleges", "Find the right candidates", "Simplify your hiring"], c: "Join Waitlist" },
+  { t: "I'm Hiring", b: "Coming Soon", d: "Connect with colleges and find candidates, from students to graduates.", p: ["Connect directly with colleges", "Find the right candidates", "Simplify your hiring"], c: "Join Waitlist" },
 ];
 const stats = [["800+", "Students"], ["130+", "colleges"], ["100+", "jobs & internships"], ["100%", "Safe & Trusted"]];
 const prefs = [
@@ -28,7 +28,7 @@ const colleges: Row[] = [
 const employers: Row[] = [
   { n: "01", k: "INSTANT SETUP", t: "Post a role in minutes", d: "Define your skills, location and hiring requirements. Reach relevant candidates across the CampusPe network.", tags: ["5 Min Deployment", "500+ Campus Network"] },
   { n: "02", k: "INSTANT SETUP", t: "Receive a matched shortlist", d: "Get candidates matched to your role by skills, experience, location and hiring requirements.", tags: ["Zero CV Clutter", "Tier1–Tier3 Parity"] },
-  { n: "03", k: "INSTANT SETUP", t: "Connect with candidates directly", d: "Message, schedule interviews, and move candidates through your pipeline — all in one place.", tags: ["In-App Scheduling", "1-Click Video / Chat"] },
+  { n: "03", k: "INSTANT SETUP", t: "Connect with candidates directly", d: "Message, schedule interviews, and move candidates through your pipeline, all in one place.", tags: ["In-App Scheduling", "1-Click Video / Chat"] },
   { n: "04", k: "INSTANT SETUP", t: "Reduce your time-to-hire", d: "Find matched candidates, connect with them and move from shortlist to offer in one streamlined workflow.", tags: ["<2 DAYS", "57% Faster Hiring"] },
 ];
 const footer: Record<string, string[]> = {
@@ -75,7 +75,7 @@ export default function Home() {
           <div className="float f2"><b>Resume Builder</b><small>Build Your Resume. Our resume builder gives you dynamic options to build better &amp; faster resume that got you hired</small></div>
           <span className="pill">AI-Powered Campus Assistant</span>
           <h1>Connect <span className="blue">10X Faster.</span></h1>
-          <p className="sub">One platform connecting students, colleges &amp; employers — faster.</p>
+          <p className="sub">One platform connecting students, colleges &amp; employers, faster.</p>
           <p className="ask">✦ What are you looking for? ✦</p>
           <div className="cards3">
             {cards.map((a) => (
@@ -122,7 +122,7 @@ export default function Home() {
                 ))}
                 <div className="pf"><a className="blue" href="#">View all matched opportunities →</a><small>Curated for you • Updated daily</small></div>
               </div>
-              <p className="hand">A mix of colleges, jobs, internships and gigs — all in one place.</p>
+              <p className="hand">A mix of colleges, jobs, internships and gigs, all in one place.</p>
             </div>
           </div>
         </section>
@@ -130,7 +130,7 @@ export default function Home() {
         <section className="center wrap">
           <span className="pill">TRY IT LIVE · v2.4 AI Engine</span>
           <h2>Upload your resume.<br /><span className="blue">Find jobs that fit.</span></h2>
-          <p className="lead">Upload once. CampusPe reads your skills, experience, and preferences — then finds relevant jobs across 1,000+ sources.</p>
+          <p className="lead">Upload once. CampusPe reads your skills, experience, and preferences, then finds relevant jobs across 1,000+ sources.</p>
           <div className="upwrap">
             <div className="float f3"><b>98% Match Rate</b><small>AI semantic rank</small></div>
             <div className="upload">
@@ -179,7 +179,7 @@ export default function Home() {
         <section className="split wrap dl">
           <div>
             <h3 className="blue">Download App Now</h3>
-            <p className="lead">Elevate your academic journey with Campuspe, the all-in-one digital ecosystem designed to bridge the gap between education and industry. Whether you&apos;re a student seeking your next big internship, a college looking to empower your cohort, or a company scouting for top-tier talent, Campuspe streamlines the connection. Your career doesn&apos;t start at graduation—it starts here.</p>
+            <p className="lead">Elevate your academic journey with Campuspe, the all-in-one digital ecosystem designed to bridge the gap between education and industry. Whether you&apos;re a student seeking your next big internship, a college looking to empower your cohort, or a company scouting for top-tier talent, Campuspe streamlines the connection. Your career doesn&apos;t start at graduation, it starts here.</p>
             <div className="stores"><a className="store" href="#">▶ Google Play</a><a className="store" href="#"> App Store</a></div>
           </div>
           <img src="/app-download.png" alt="CampusPe app on phones" className="dlimg" />
